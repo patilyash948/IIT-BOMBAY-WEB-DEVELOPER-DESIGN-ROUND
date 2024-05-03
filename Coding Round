@@ -1,1 +1,20 @@
+Implement a simple page that has 3 column lists (a simple bootstrap design is preferred).
+- You can use the above image as a reference.
+- Each column will contain multiple cards.
+- The order of the cards should be maintained.
+- The card should show a title and a description.
+- The state should be maintained after refresh.
+- There should be a button at the top to add a new card.
+- User should be able to move a card from one column to another by drag and drop.
 
+### Add Card
+- On clicking the add card button, a modal popup should be shown with a form.
+- The form should contain title, description and column selection dropdown.
+- Title should be validated and should only contain alphabets.
+- Description should be validated and should be a minimum of 25 characters.
+- On submission, the card should be added to the end of the selected column.
+
+### Edit Card
+- On clicking a card, the add card modal popup should be shown with the add card form with the prefilled data.
+- If the user changes the column then, the card should be added to the end of the selected column.
+- There should be a button to delete the card in the popup.
